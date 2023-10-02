@@ -1,0 +1,113 @@
+h1 {
+    font-family: Belanosima;
+    font-weight: 400;
+}
+
+Header {
+    display: flex;
+
+    justify-content: center;
+    align-items: end;
+
+    width: 100%;
+}
+
+.logo {
+    background-color: rgb(231, 208, 8);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    width: 100%;
+}
+
+.titlee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.imagen {
+    height: 50px;
+}
+
+h5 {
+    color: aliceblue;
+    font-family: Outfit;
+    font-weight: 300;
+}
+
+main {
+    background-image: url(../public/imagenes/fondo.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    height: 600px;
+    padding: 1rem;
+}
+
+.box2 {
+    width: 40%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.card {
+    width: 80%;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.card h4 {
+    font-family: Outfit;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.card h3 {
+    font-family: Outfit;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.card p {
+    font-family: Outfit;
+    font-weight: 300;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+}
+
+.description {
+    margin-bottom: 4rem;
+}
